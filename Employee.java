@@ -1,12 +1,11 @@
 package com.capgemini.beans;
-public class Employee {
 
+public class Employee {
 	String fname;
 	String lname;
 	double salary;
 	Date doj;
 	static int empn=0;
-
 private int id;
 public Employee(String fname, String lname, double salary, Date doj)
 
@@ -19,7 +18,7 @@ this.lname=lname;
 this.salary=salary;
 this.doj=doj;
 
-}
+		}
 
 public int getID() {
 	return id;
@@ -56,3 +55,4 @@ public void setDoj(Date doj) {
 	this.doj = doj;
 }
 }
+

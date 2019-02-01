@@ -1,7 +1,6 @@
 package com.capgemini.beans;
 
 public class Date {
-
 	private int day,month,year;
 
 	public Date(int day, int month, int year) {
@@ -17,3 +16,5 @@ public class Date {
 		
 	}
 }
+
+

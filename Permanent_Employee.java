@@ -1,19 +1,10 @@
 package com.capgemini.beans;
 
-public abstract class Permanent_Employee extends Employee {
-	
-	Mediclaim claimref;
-	
+public class Permanent_Employee extends Employee {
+	static int count=0;
 	public Permanent_Employee(String fname, String lname, double salary, Date doj) {
-		super(fname, lname, salary,doj);
+		super(fname, lname, salary, doj);
 		
 		
 	}
-
-	public Mediclaim getClaimref() {
-		return claimref;
-	}
-
-	
-
 }

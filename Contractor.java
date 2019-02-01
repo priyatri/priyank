@@ -1,8 +1,6 @@
-
 package com.capgemini.beans;
 
 public class Contractor {
-
 String name;
 double rate;
 public Contractor(String name, double rate)
@@ -25,4 +23,3 @@ public void setRate(double rate) {
 }
 
 }
-
